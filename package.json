@@ -10,7 +10,7 @@
     },
     "private": "true",
     "scripts": {
-        "start": "node packages/node_modules/node-red/red.js",
+        "start": "node packages/node_modules/node-red/red.js --settings ship-settings.js",
         "build": "node scripts/build",
         "build-dev": "node scripts/build --dev",
         "dev": "node scripts/dev",
